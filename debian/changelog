@@ -1,3 +1,12 @@
+linux-ck (3.18.2-1) unstable; urgency=medium
+
+  * set ABI to 2
+  * import patch-3.18.2
+  * enable VFIO in config
+  * fixed some iptables configs
+
+ -- Alf Gaida <agaida@siduction.org>  Fri, 09 Jan 2015 17:58:10 +0100
+
 linux-ck (3.18.1-1) unstable; urgency=medium
 
   * import .1 patch
