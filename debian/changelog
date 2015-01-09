@@ -1,0 +1,26 @@
+linux-ck (3.18.1-1) unstable; urgency=medium
+
+  * import .1 patch
+  * get rid of aufs
+
+ -- Alf Gaida <agaida@siduction.org>  Thu, 18 Dec 2014 22:39:16 +0100
+
+linux-ck (3.18.0-1) unstable; urgency=medium
+
+  * new patchsets, new release
+
+ -- Alf Gaida <agaida@siduction.org>  Sun, 14 Dec 2014 22:15:54 +0100
+
+linux-ck (3.17.5-2) unstable; urgency=medium
+
+  * abi 5
+  * patch imported 
+
+ -- Alf Gaida <agaida@siduction.org>  Sun, 07 Dec 2014 16:42:53 +0100
+
+linux-ck (3.17.4-2) unstable; urgency=medium
+
+  * abi 4
+  * bfs and bfq patches
+
+ -- Alf Gaida <agaida@siduction.org>  Wed, 03 Dec 2014 16:31:53 +0100

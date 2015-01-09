@@ -1,0 +1,6 @@
+[base]
+flavours:
+ ck-686
+ ck-686-pae
+[686-pae_description]
+parts: xen

@@ -1,0 +1,11 @@
+Section: kernel
+Priority: optional
+Maintainer: Alf Gaida <agaida@siduction.org>
+Standards-Version: 3.9.6
+Build-Depends:
+ debhelper (>= 9),
+ cpio, python,
+ bc
+Homepage: http://kernel.org/
+Vcs-Git: git://git.siduction.org/code/linux-ck.git
+Vcs-Browser: http://git.siduction.org/?p=code/linux-ck.git
