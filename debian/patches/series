@@ -1,5 +1,5 @@
 # upstream updates
-upstream/patch-3.18.2
+upstream/patch-3.18.3
 
 # ck
 ck/3.18-sched-bfs-460.patch

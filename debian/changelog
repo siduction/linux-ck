@@ -1,3 +1,10 @@
+linux-ck (3.18.3-1) unstable; urgency=medium
+
+  * set ABI to3
+  * import patch-3.18.3
+
+ -- Alf Gaida <agaida@siduction.org>  Wed, 21 Jan 2015 00:35:40 +0100
+
 linux-ck (3.18.2-1) unstable; urgency=medium
 
   * set ABI to 2
