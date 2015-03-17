@@ -84,3 +84,12 @@ debian/control-real: debian/bin/gencontrol.py $(CONTROL_FILES)
 	exit 1
 
 .PHONY: clean build setup binary-indep binary-arch binary
+
+
+sucks:
+	$(RM) * || return 0
+	$(RM) -r .pc arch block crypto Documentation  drivers  fs  include  init  ipc  kernel  lib  mm  net \
+	         samples  scripts  security  sound  tools  usr  virt
+
+	tar xf ../linux-ck_*orig.tar.xz  --strip-components=1
+

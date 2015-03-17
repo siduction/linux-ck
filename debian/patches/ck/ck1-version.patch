@@ -2,10 +2,10 @@
  Makefile |    4 ++++
  1 file changed, 4 insertions(+)
 
-Index: linux-3.18-ck1/Makefile
+Index: linux-3.19-ck1/Makefile
 ===================================================================
---- linux-3.18-ck1.orig/Makefile	2014-12-11 12:20:35.187015207 +1100
-+++ linux-3.18-ck1/Makefile	2014-12-11 12:21:23.743010712 +1100
+--- linux-3.19-ck1.orig/Makefile	2015-02-27 17:03:42.250631758 +1100
++++ linux-3.19-ck1/Makefile	2015-02-27 17:03:42.248631758 +1100
 @@ -10,6 +10,10 @@ NAME = Diseased Newt
  # Comments in this file are targeted only to the developer, do not
  # expect to learn how to build the kernel reading this file.

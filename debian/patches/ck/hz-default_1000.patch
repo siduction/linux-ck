@@ -6,10 +6,10 @@ Set default HZ to 1000 which is what most desktop users should still be using.
  kernel/Kconfig.hz |    2 +-
  1 file changed, 1 insertion(+), 1 deletion(-)
 
-Index: linux-3.18-ck1/kernel/Kconfig.hz
+Index: linux-3.19-ck1/kernel/Kconfig.hz
 ===================================================================
---- linux-3.18-ck1.orig/kernel/Kconfig.hz	2014-12-11 12:20:16.855016903 +1100
-+++ linux-3.18-ck1/kernel/Kconfig.hz	2014-12-11 12:20:16.853016904 +1100
+--- linux-3.19-ck1.orig/kernel/Kconfig.hz	2015-02-27 17:03:42.069631741 +1100
++++ linux-3.19-ck1/kernel/Kconfig.hz	2015-02-27 17:03:42.068631741 +1100
 @@ -4,7 +4,7 @@
  
  choice

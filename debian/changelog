@@ -1,3 +1,9 @@
+linux-ck (3.19.1-1) UNRELEASED; urgency=medium
+
+  * new upstream
+  
+ -- Alf Gaida <agaida@siduction.org>  Tue, 17 Mar 2015 17:47:58 +0100
+
 linux-ck (3.18.3-2) unstable; urgency=medium
 
   * new patch: overlayfs_inotify.patch - hopefully fix inotify issues
