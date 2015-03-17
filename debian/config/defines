@@ -1,10 +1,9 @@
 [abi]
-abiname: 3
+abiname: 5
 
 [base]
 arches:
  amd64
- i386
 compiler: gcc-4.9
 featuresets:
  none
@@ -25,4 +24,4 @@ gcc-4.9: gcc-4.9
 
 # initramfs-generators
 initramfs-fallback: linux-initramfs-tool
-initramfs-tools: initramfs-tools (>= 0.110~)
+initramfs-tools: initramfs-tools (>= 0.118)

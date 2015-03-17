@@ -1,4 +1,4 @@
-linux-siduction for siduction
+linux-ck for siduction
 ------------------------
 
 Patches
@@ -7,12 +7,12 @@ siduction applies small changes and upstream backports to the kernel source.
 These are split up into separated patches addressing individual problems. 
 Each of the patch files contains a description and mentions the author. The 
 patches can be found at:
-http://git.siduction.org/?p=packages/siduction-repository/linux-siduction.git;a=summary
+debian/patches/
 
 Config Files
 ------------
 The .config files used to build the various linux-image files are dynamically
-generated during the linux-siduction package build. See the source package for
+generated during the linux-ck package build. See the source package for
 details.  Each linux-image-* package provides the complete .config file that
 was used to generate it.  This file is installed in /boot.
 Additionally the configuration of the currently running kernel is stored under
@@ -46,7 +46,7 @@ Rebuilding Adaptec AIC7xxx/79xx firmware
 You can rebuild the firmware for the Adaptec AIC7xxx/79xx SCSI Adapters. To
 do so you need to set AIC7XXX_BUILD_FIRMWARE/AIC79XX_BUILD_FIRMWARE config
 options.  Note that this requires one to have the development packages for
-berkelydb (libdb4.2-dev) installed.
+Berkeley Database (libdb-dev) installed.
 
 Non-free bits removed
 ---------------------
@@ -56,4 +56,5 @@ Further information
 -------------------
 [be aware that there are some packaging differences between siduction and Debian]
 Debian Linux Kernel Handbook: http://kernel-handbook.alioth.debian.org
+                              or debian-kernel-handbook package
 Debian Wiki: http://wiki.debian.org/DebianKernel

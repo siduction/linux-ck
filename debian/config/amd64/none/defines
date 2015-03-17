@@ -3,8 +3,3 @@ flavours:
  ck-amd64
 
 [ck-amd64_description]
-parts: xen
-
-[ck-amd64_xen]
-flavours:
- ck-amd64
