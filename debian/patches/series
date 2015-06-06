@@ -10,6 +10,10 @@ ck/hz-default_1000.patch
 ck/kconfig-expose_vmsplit_option.patch
 ck/ck1-version.patch
 
+ck/bfs462-update_inittask.patch
+ck/bfs462-rtmn-fix.patch
+
+
 # bfq
 bfq/0001-block-cgroups-kconfig-build-bits-for-BFQ-v7r7-4.0.patch
 bfq/0002-block-introduce-the-BFQ-v7r7-I-O-sched-for-4.0.patch

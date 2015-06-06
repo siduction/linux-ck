@@ -1,3 +1,22 @@
+linux-ck (4.0.5-3) unstable; urgency=medium
+
+  * some configuration refinement
+
+ -- Alf Gaida <agaida@siduction.org>  Sat, 06 Jun 2015 16:37:49 +0200
+
+linux-ck (4.0.5-2) unstable; urgency=medium
+
+  * som additional patches for ck
+
+ -- Alf Gaida <agaida@siduction.org>  Sat, 06 Jun 2015 15:29:09 +0200
+
+linux-ck (4.0.5-1) unstable; urgency=medium
+
+  * set ABI to 5
+  * import patch-4.0.5-rc1
+
+ -- Alf Gaida <agaida@siduction.org>  Sat, 06 Jun 2015 13:34:44 +0200
+
 linux-ck (3.19.1-1) UNRELEASED; urgency=medium
 
   * new upstream
