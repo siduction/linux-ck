@@ -1,18 +1,18 @@
 Budget Fair Queueing I/O Scheduler
 ==================================
 
-This patchset introduces BFQ-v7r7 into Linux 3.19.0.
+This patchset introduces BFQ-v7r7 into Linux 4.0.0.
 For further information: http://www.algogroup.unimo.it/people/paolo/disk_sched/.
 
 The overall diffstat is the following:
 
- block/Kconfig.iosched         |   32 +
+ block/Kconfig.iosched         |   32 ++
  block/Makefile                |    1 +
- block/bfq-cgroup.c            |  936 +++++++++++++++++++++++++++
+ block/bfq-cgroup.c            |  936 +++++++++++++++++++++++++++++++++++++
  block/bfq-ioc.c               |   36 ++
- block/bfq-iosched.c           | 4223 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
- block/bfq-sched.c             | 1186 ++++++++++++++++++++++++++++++++++
- block/bfq.h                   |  811 +++++++++++++++++++++++
+ block/bfq-iosched.c           | 4223 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ block/bfq-sched.c             | 1186 +++++++++++++++++++++++++++++++++++++++++++++++
+ block/bfq.h                   |  811 ++++++++++++++++++++++++++++++++
  include/linux/cgroup_subsys.h |    4 +
  8 files changed, 7229 insertions(+)
 

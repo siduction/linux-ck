@@ -1,9 +1,9 @@
 # upstream updates
-upstream/patch-3.19.1
-upstream/patch-3.19.2-rc0
+upstream/patch-4.0.4
+upstream/patch-4.0.5-rc1
 
 # ck
-ck/3.19-sched-bfs-461.patch
+ck/4.0-sched-bfs-462.patch 
 ck/preempt-desktop-tune.patch
 ck/hz-no_default_250.patch
 ck/hz-default_1000.patch
@@ -11,33 +11,29 @@ ck/kconfig-expose_vmsplit_option.patch
 ck/ck1-version.patch
 
 # bfq
-
-bfq/0001-block-cgroups-kconfig-build-bits-for-BFQ-v7r7-3.19.patch
-bfq/0002-block-introduce-the-BFQ-v7r7-I-O-sched-for-3.19.patch
-bfq/0003-block-bfq-add-Early-Queue-Merge-EQM-to-BFQ-v7r7-for-3.19.0.patch
-
-upstream/revert-extraversion.diff
+bfq/0001-block-cgroups-kconfig-build-bits-for-BFQ-v7r7-4.0.patch
+bfq/0002-block-introduce-the-BFQ-v7r7-I-O-sched-for-4.0.patch
+bfq/0003-block-bfq-add-Early-Queue-Merge-EQM-to-BFQ-v7r7-for-4.0.0.patch
 
 # dfsg-ify the binaries
 dfsg/drivers-media-dvb-usb-af9005-request_firmware.patch
-#dfsg/r8192e-remove-firmware-again.patch
 
 # stable candidate
 
 # bugfixes
-bugfix/misc-bmp085-Enable-building-as-a-module.patch
-bugfix/kbuild-use-nostdinc-in-compile-tests.patch
-bugfix/disable-some-marvell-phys.patch
 bugfix/aic94xx-remove-broken-fallback-for-missing-ctrl-a.patch
+bugfix/disable-some-marvell-phys.patch
+bugfix/fix_vgaarb.patch
+bugfix/misc-bmp085-Enable-building-as-a-module.patch
 bugfix/overlayfs_inotify.patch
-bugfix/xt_recent_fix.patch
+bugfix/radeon-firmware-is-required-for-drm-and-kms-on-r600-onward.patch
 
 # debian specific patches.
-debian/version.patch
-debian/kernelvariables.patch
-features/Kbuild-kconfig-Verbose-version-of-listnewconfig.patch
 debian/iwlwifi-do-not-request-unreleased-firmware.patch
+debian/kernelvariables.patch
+debian/version.patch
 
 # features
 features/defaults-fat-utf8.patch
+features/Kbuild-kconfig-Verbose-version-of-listnewconfig.patch
 

@@ -8,11 +8,11 @@ more explicit about what each option means.
  arch/x86/Kconfig |   12 ++++++------
  1 file changed, 6 insertions(+), 6 deletions(-)
 
-Index: linux-3.19-ck1/arch/x86/Kconfig
+Index: linux-4.0-ck1/arch/x86/Kconfig
 ===================================================================
---- linux-3.19-ck1.orig/arch/x86/Kconfig	2015-02-27 17:03:42.160631750 +1100
-+++ linux-3.19-ck1/arch/x86/Kconfig	2015-02-27 17:03:42.158631750 +1100
-@@ -1218,7 +1218,7 @@ config HIGHMEM64G
+--- linux-4.0-ck1.orig/arch/x86/Kconfig	2015-04-16 14:14:38.456701369 +1000
++++ linux-4.0-ck1/arch/x86/Kconfig	2015-04-16 14:14:38.455701375 +1000
+@@ -1253,7 +1253,7 @@ config HIGHMEM64G
  endchoice
  
  choice
@@ -21,7 +21,7 @@ Index: linux-3.19-ck1/arch/x86/Kconfig
  	default VMSPLIT_3G
  	depends on X86_32
  	---help---
-@@ -1238,17 +1238,17 @@ choice
+@@ -1273,17 +1273,17 @@ choice
  	  option alone!
  
  	config VMSPLIT_3G

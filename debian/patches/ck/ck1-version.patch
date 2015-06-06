@@ -2,11 +2,11 @@
  Makefile |    4 ++++
  1 file changed, 4 insertions(+)
 
-Index: linux-3.19-ck1/Makefile
+Index: linux-4.0-ck1/Makefile
 ===================================================================
---- linux-3.19-ck1.orig/Makefile	2015-02-27 17:03:42.250631758 +1100
-+++ linux-3.19-ck1/Makefile	2015-02-27 17:03:42.248631758 +1100
-@@ -10,6 +10,10 @@ NAME = Diseased Newt
+--- linux-4.0-ck1.orig/Makefile	2015-04-16 14:14:38.558700723 +1000
++++ linux-4.0-ck1/Makefile	2015-04-16 14:14:38.556700735 +1000
+@@ -10,6 +10,10 @@ NAME = Hurr durr I'ma sheep
  # Comments in this file are targeted only to the developer, do not
  # expect to learn how to build the kernel reading this file.
  

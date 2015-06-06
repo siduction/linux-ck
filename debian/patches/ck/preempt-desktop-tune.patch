@@ -6,10 +6,10 @@ Enable preempt by default and make people steer away from voluntary.
  kernel/Kconfig.preempt |    7 ++++---
  1 file changed, 4 insertions(+), 3 deletions(-)
 
-Index: linux-3.19-ck1/kernel/Kconfig.preempt
+Index: linux-4.0-ck1/kernel/Kconfig.preempt
 ===================================================================
---- linux-3.19-ck1.orig/kernel/Kconfig.preempt	2015-02-27 17:03:41.890631725 +1100
-+++ linux-3.19-ck1/kernel/Kconfig.preempt	2015-02-27 17:03:41.889631725 +1100
+--- linux-4.0-ck1.orig/kernel/Kconfig.preempt	2015-04-16 14:14:38.148703319 +1000
++++ linux-4.0-ck1/kernel/Kconfig.preempt	2015-04-16 14:14:38.146703332 +1000
 @@ -1,7 +1,7 @@
  
  choice
